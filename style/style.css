@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+:root{
+    --gray : hsl(0, 0%, 96%);
+    --blue : hsl(244, 86%, 59%);
+    --red : hsl(342, 100%, 50%);
+    --white : hsl(0, 0%, 100%);
+    --dark-gray: hsl(219, 13%, 44%);
+    --space-cadet: hsl(224, 48%, 22%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height:100vh;
+    font-family: "Be Vietnam Pro", sans-serif;
+    overflow-x:hidden;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--space-cadet)
+
+}
+.main-container{
+
+    width:100%;
+    height:100vh;
+    overflow-x: hidden;
+  
+   
+}
+
+.header{
+    box-shadow: 0 2px 25px hsla(0, 0%, 0%, 0.1);
+    transition: box-shadow 0.25s ease;
+
+    
+}
+
+.container{
+    width:90%;
+    margin-inline:auto;
+    display: flex;
+
+    
+}
+
+.header-container{
+    flex-direction: row;
+    padding-block:16px;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+
+
+.cta-button{
+   
+    gap:10px;
+    width:max-content;
+  
+    padding-inline:24px;
+    font-size:15px;
+    border-radius:8px;
+    cursor:pointer;
+    color:white;
+    border:none;
+    display: flex;
+    align-items: center;
+    letter-spacing:1.2px ;
+   
+    
+}
+
+
+.logo-img{
+    width:170px;
+}
+
+.navlinks{
+    width:52%;
+}
+
+.navlink-container{
+    width:100%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+
+.link{
+    font-size:17px;
+    font-weight:600;
+   
+}
+
+.link a {
+    transition: color 0.2s;
+}
+
+.link a:hover{
+    color:var(--red)
+}
+
+.menu-bar{
+    display: flex;
+}
+
+.menu{
+    width:30px;
+}
+
+
+.nav-button{
+    padding-block:14px;
+    display: none;
+    background-color: var(--blue);
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.nav-button:hover{
+    background-color: var(--red);
+}
+
+.right-arrow{
+    width:12px;
+}
+
+
+.main{
+ 
+    display: flex;
+    align-items: center;
+    padding-block:60px;
+}
+
+.hero-container{
+    flex-direction: column-reverse;
+}
+
+
+.hero-left-part{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:8px;
+  
+}
+
+.hero-head{
+    
+    text-align:center;
+    font-size:30px;
+    color:var(--space-cadet);
+
+}
+
+.hero-desc{
+    color:var(--dark-gray);
+    font-size:14px;
+    line-height:24px;
+    text-align:center;
+  
+}
+
+.hero-btn{
+    padding-block:16px;
+    background-color: var(--red);
+    transition: background-color 0.3s ease;
+
+}
+
+.hero-btn:hover{
+      background-color: var(--blue);
+
+}
+
+.hero-right-part{
+    display: flex;
+    justify-content: center;
+    width:100%;
+  
+}
+.hero-img{
+    width: 100%;
+    object-fit: cover;
+  
+ 
+    
+}

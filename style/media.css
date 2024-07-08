@@ -1,0 +1,132 @@
+
+
+@media only screen and (min-width: 450px) {
+   .menu-bar{
+    width:60%;
+   }
+   
+
+}
+
+
+@media only screen and (min-width: 580px) {
+    .container{
+        width:520px;
+    }
+    .hero-img{
+        width:490px;
+    }
+
+   
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container{
+        width:700px;
+    }
+
+    .hero-img{
+        width:670px;
+    }
+   
+    .hero-head{
+        font-size:38px ;
+    }
+    .hero-desc{
+        font-size:16px;
+        line-height:30px;
+    }
+
+   
+    .hero-btn{
+        padding-block:20px;
+    }
+
+    
+
+   
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+    .cta-button{
+        font-size:16px;
+    }
+    .hero-container{
+        align-items:center;
+        flex-direction: row;
+    }
+
+    .main{
+        
+        height:620px;
+    }
+    .header{
+        box-shadow: none;
+    }
+    .container{
+        width:950px;
+    }
+
+    .navlink-container{
+        display:flex;
+    }
+
+    .nav-button{
+       
+        display: flex;
+    }
+
+    .menu-bar{
+        display: none;
+    }
+
+    .hero-img{
+        width:460px;
+    }
+
+    .hero-head{
+        text-align:left;
+        font-size:46px;
+    }
+    .hero-left-part{
+        align-items: flex-start;
+    }
+    .hero-desc{
+        font-size:17px;
+        text-align:left;
+    }
+    .hero-left-part{
+        width:50%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        width:1120px;
+    }
+
+    .navlinks{
+        width:50%;
+    }
+
+    .main{
+        height:760px;
+    }
+    .hero-img{
+        width:560px;
+    }
+    .hero-head{
+        font-size:52px;
+    }
+
+
+}
